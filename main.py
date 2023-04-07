@@ -13,7 +13,6 @@ heading = soup.find_all('th')[1:3]
 column = [item.text for item in heading]
 column.insert(1, "Year")  # inserting the 'Year' element inside the list
 # print(column)
-
 titleColumn = soup.find_all("td", class_="titleColumn")
 names = [item.a.text for item in titleColumn]
 # print(names[2])
