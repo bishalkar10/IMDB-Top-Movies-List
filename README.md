@@ -14,7 +14,7 @@ This repository contains a Python script that scrapes the top-rated movies from 
 Install Python 3.x by downloading it from the [official website](https://www.python.org/downloads/)  
 Install VS Code by downloading it from the [official website](https://code.visualstudio.com/download/)  
 Install the required Python packages by running the following command in your terminal or command prompt:  
-`pip install pandas beautifulsoup4 requests lxml`  
+```pip install pandas beautifulsoup4 requests lxml```  
 
 # Author  
 Bishal Kar
